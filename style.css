@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+#memory{
+    background-image: url(Capture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+#kidseng{
+    background-image: url(children-learn-english-online-home-homeschooling-distance-education-kids-children-learn-english-online-home-176780837.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+#phonics{
+    background-image: url(istockphoto-1145843759-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+#kalfun{
+    background-image: url(kids-math-lessons-young-children-learning-how-to-do-mathematics-44456043.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.bg-grey{
+    background-image: url(abacus.jpg);
+    height: 100%;
+    width: 100%;
+}
+
+#index{
+    background-color: #282633;
+ 
+}
+.newNight{
+    background-color: #ffffff;
+    transition: 0.8s ease-in-out;
+
+}
+#abacus{
+    background-image: url(abacus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+#spellbee{
+    background-image: url(istockphoto-522422295-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.vedic{
+    background-image: url(vedic-maths.jpg);
+}
+
+/* .homePage{
+    background-color: #000542;
+} */
+
+
+/* Laptop */
+@media (min-width: 992px) {
+    .l-add-flex{
+        display: flex;
+    }
+
+    .crse{
+        height: 200px; 
+        width: 700px;
+    }
+
+    .m-carousel{
+        height: 80vh;
+    }
+}
+
+/* Mobile */
+@media (max-width: 992px) { 
+
+/*     *{
+        visibility: hidden;
+    } */
+.m-sm{
+    font-size: 18px;
+}
+
+.m-pt {
+    padding-top: 10px;
+}
+#contact-btn{
+    padding-top: 2px;
+     width: 200px;
+}
+.cr-btn{
+    visibility: hidden;
+}
+.m-carousel{
+    height: 40vh;
+}
+
+    .crse{
+        height: 200px;
+        overflow: hidden; 
+        width: 95%;
+        
+        border: none;
+    }
+
+    .lg-add1{
+        position:absolute; 
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    #Nav .collapse ul li a:hover{
+        font-weight: 700;
+    }
+
+    /* .homePage{
+        background-image: url(/images/homePageBcg.png);
+        background-size: cover;
+    
+    
+    }
+     */
+    .websitesPage{
+        background-image: url(/images/websitesPageBcg.png);
+        background-size: cover;
+    
+    }
+
+    .appear{
+        animation: appear 9s cubic-bezier(0.25, 0.46, 0.45, 0.94);    
+    
+    }
+    .imgSmallDevices{
+        visibility: hidden;
+    }
+    .lg-remove1{
+        visibility: hidden;
+    }
+
+    .card-pic-overlay{
+        height: 32vh;
+        overflow: hidden;
+    }
+
+    .homePage .card-img-top{
+        transition: 0.9s ease-in-out;
+    }
+    
+    .homePage .card-img-top:hover{
+        cursor: pointer;
+        transform: scale(1.5);
+        
+    }
+
+ 
+
+
+
+
+    
+    
+
+
+
+   
+}
+
+ /* Media Query Ends */
+
+ .carouselStyling{
+     padding-right: 0;
+     background-color: #0d6dfd80;
+
+ }
+
+ .text-grey{
+     color: #6d6d6d;
+ }
+
+ #Nav .navbar-brand{
+    font-family: 'Poppins', sans-serif;
+    cursor: default;
+ }
+.slideRight{ 
+    animation: slideRight 8s cubic-bezier(0.075, 0.82, 0.165, 1);    
+}
+
+.slideRight-appear{ 
+    animation: slideRight-appear 8s cubic-bezier(0.075, 0.82, 0.165, 1);    
+}
+
+
+
+.slideBottom{
+    animation: slideBottom 6s cubic-bezier(0.075, 0.82, 0.165, 1);    
+
+}
+
+.slideTop{
+    animation: slideTop 6s cubic-bezier(0.165, 0.84, 0.44, 1);    
+    z-index: 15;
+
+}
+
+.slideLeft{
+    animation: slideLeft 8s cubic-bezier(0.075, 0.82, 0.165, 1);    
+
+}
+
+
+
+
+/* Animations - @keyframes */
+
+
+@keyframes slideRight{
+    from{
+    transform: translateX(-50%);
+    }
+
+    to{
+    transform: translateX(0%);
+    }
+}
+
+
+
+
+@keyframes slideRight-appear{
+    from{
+    transform: translateX(-50%);
+    opacity: 0;
+    }
+
+    to{
+    transform: translateX(0%);
+    opacity: 1;
+    }
+}
+
+@keyframes slideLeft{
+    from{
+    transform: translateX(14%);
+    }
+
+    to{
+    transform: translateX(0%);
+    }
+}
+
+@keyframes slideBottom{
+    from{
+    transform: translateY(-200%);
+    }
+
+    to{
+    transform: translateY(0%);
+    }
+}
+
+
+@keyframes slideTop{
+    from{
+    transform: translateY(75%);
+    }
+
+    to{
+    transform: translateY(0%);
+    }
+}
+
+
+@keyframes appear{
+    from{
+    opacity: 0;
+    }
+
+    to{
+    opacity: 1;
+    }
+}
+
+@media (max-width: 767px) {
+  
+    .homePage{
+      background-color: #fff;
+      
+    }
+    
+    .websitesPage{
+      background-color: white;
+    }
+
+    .appear{
+        animation: appear 5s cubic-bezier(0.25, 0.46, 0.45, 0.94);    
+    
+    }
+
+    .imgLargeDevices{
+        visibility: hidden;
+    }
+
+    .imgSmallDevices{
+        height: 70%;
+        position: relative; 
+        left: 50%;
+        transform: translateX(-50%);
+     
+    }
+
+    .sm-add2{
+    text-align: center;
+    }
+
+    .sm-add1 h5{
+        text-align: center;
+    }
+
+    .sm-remove1{
+        visibility: hidden;
+    }
+}
